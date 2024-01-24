@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T10:44:16.887Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="M_3k8ORtj9MATM0RTm6R" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T10:45:52.007Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="m0JEwQmagAyMZdpB9jzf" version="23.0.0" type="github">
   <diagram name="第 1 页" id="1S-oWMN58DFkhCVR-oqF">
     <mxGraphModel dx="529" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1087,6 +1087,47 @@
             <Array as="points">
               <mxPoint x="2635" y="1754" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-323" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2689.97" y="1790" width="10" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-324" value="修改信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="-E-mYHirCY9QTEUU1FOy-323">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2689.97" y="1770" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2724.97" y="1770" />
+              <mxPoint x="2724.97" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-325" value="返回成功" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=block;startFill=1;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2580" y="1819.9999999999998" as="sourcePoint" />
+            <mxPoint x="2680" y="1820.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2625" y="1820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-326" value="返回归还成功" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0032" width="80" relative="1" as="geometry">
+            <mxPoint x="2475" y="1830.42" as="sourcePoint" />
+            <mxPoint x="2570" y="1830.42" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2520" y="1830" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-327" value="显示归还成功" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=block;startFill=1;exitX=1;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-E-mYHirCY9QTEUU1FOy-278" target="-E-mYHirCY9QTEUU1FOy-282">
+          <mxGeometry x="-0.0032" width="80" relative="1" as="geometry">
+            <mxPoint x="2375" y="1840" as="sourcePoint" />
+            <mxPoint x="2470" y="1840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2415.33" y="1840.31" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
