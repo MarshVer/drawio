@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T15:41:04.973Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="N4980VFgkrB1f7vMzEMq" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T15:42:08.485Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="mHG3PvrcO5GOMtRI4rrJ" version="23.0.0" type="github">
   <diagram name="第 1 页" id="Yiv2DQ5oim6ke4sZhG6O">
     <mxGraphModel dx="698" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -812,7 +812,7 @@
           <mxGeometry x="15" y="227" width="10" height="53" as="geometry" />
         </mxCell>
         <mxCell id="QVRJEaV4QxOZm5xQxeen-312" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="QVRJEaV4QxOZm5xQxeen-310">
-          <mxGeometry x="15" y="312" width="10" height="100" as="geometry" />
+          <mxGeometry x="15" y="312" width="10" height="162" as="geometry" />
         </mxCell>
         <mxCell id="QVRJEaV4QxOZm5xQxeen-313" value="购物车服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1643" y="-142" width="78" height="26" as="geometry" />
@@ -911,6 +911,33 @@
             <mxPoint x="1781" y="239" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1731.33" y="238.9999999999999" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVRJEaV4QxOZm5xQxeen-341" value="结算与确认订单请求" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;endFill=1;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0032" width="80" relative="1" as="geometry">
+            <mxPoint x="1581" y="265.2899999999999" as="sourcePoint" />
+            <mxPoint x="1676" y="265.29" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1626.33" y="265.2899999999999" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVRJEaV4QxOZm5xQxeen-342" value="处理支付请求" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1687" y="283" as="sourcePoint" />
+            <mxPoint x="1782" y="283" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVRJEaV4QxOZm5xQxeen-343" value="支付响应" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;endFill=0;startArrow=block;startFill=1;" edge="1" parent="1">
+          <mxGeometry x="-0.0032" width="80" relative="1" as="geometry">
+            <mxPoint x="1686" y="312.57999999999987" as="sourcePoint" />
+            <mxPoint x="1781" y="312.58" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1731.33" y="312.57999999999987" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
