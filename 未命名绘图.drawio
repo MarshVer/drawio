@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T07:06:42.980Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="48IZby7vH_DSEiKcKNe-" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T07:06:59.710Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SePGRbHjtv9gM_S3ZeWj" version="23.0.0" type="github">
   <diagram name="第 1 页" id="1S-oWMN58DFkhCVR-oqF">
     <mxGraphModel dx="470" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
         <mxCell id="-E-mYHirCY9QTEUU1FOy-23" value="生成用户借阅记录报表" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="-E-mYHirCY9QTEUU1FOy-10">
           <mxGeometry x="35" y="180" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-E-mYHirCY9QTEUU1FOy-25" value="" style="endArrow=open;html=1;rounded=0;targetPerimeterSpacing=0;startArrow=none;startFill=0;endFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="-E-mYHirCY9QTEUU1FOy-2">
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-25" value="" style="endArrow=open;html=1;rounded=0;targetPerimeterSpacing=0;startArrow=open;startFill=0;endFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="-E-mYHirCY9QTEUU1FOy-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="470" y="1130" as="sourcePoint" />
             <mxPoint x="590" y="1130" as="targetPoint" />
@@ -300,7 +300,7 @@
             <mxPoint x="580" y="1250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-E-mYHirCY9QTEUU1FOy-30" value="获取和更新用户的图书信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-E-mYHirCY9QTEUU1FOy-29">
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-30" value="获取用户的图书信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-E-mYHirCY9QTEUU1FOy-29">
           <mxGeometry x="-0.2088" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
