@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T08:04:03.179Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ArYTwDT1bWDxilOJpxk5" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T09:06:29.487Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Cb_wxW8FbhuCyP4LRZfy" version="23.0.0" type="github">
   <diagram name="第 1 页" id="1S-oWMN58DFkhCVR-oqF">
-    <mxGraphModel dx="608" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="517" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -699,6 +699,60 @@
         <mxCell id="-E-mYHirCY9QTEUU1FOy-144" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-E-mYHirCY9QTEUU1FOy-143">
           <mxGeometry x="-0.0588" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-145" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="600" width="20" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-146" value="读者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2345" y="570" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-147" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="600" width="50" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-148" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="605" width="40" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-149" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="600" width="40" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-150" value="借阅界面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="570" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-151" value="系统服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-152" value="系统数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="575" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-153" value="打开借阅界面" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-E-mYHirCY9QTEUU1FOy-147">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2370" y="670" as="sourcePoint" />
+            <mxPoint x="2450" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-154" value="查询图书" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2370" y="713.58" as="sourcePoint" />
+            <mxPoint x="2475" y="713.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-155" value="查询图书" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="-E-mYHirCY9QTEUU1FOy-147" target="-E-mYHirCY9QTEUU1FOy-149">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2470" y="730" as="sourcePoint" />
+            <mxPoint x="2575" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2520" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-E-mYHirCY9QTEUU1FOy-156" value="查询图书" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2590" y="760" as="sourcePoint" />
+            <mxPoint x="2695" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2635" y="760" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
